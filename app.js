@@ -10,7 +10,6 @@ const contractorControllers = require("./controllers/contractorControllers");
 app.use("/apartments", apartmentControllers);
 app.use("/contractors", contractorControllers);
 
-// app.use("/users", userControllers);
 app.get("/", (req, res) => {
   res.send("Welcome to the app");
 });

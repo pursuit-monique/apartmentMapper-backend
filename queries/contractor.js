@@ -1,5 +1,4 @@
 const express = require("express");
-const events = express.Router();
 const db = require("../apartmentdb/dbConfig.js");
 
 const getAllContractors = async () => {
