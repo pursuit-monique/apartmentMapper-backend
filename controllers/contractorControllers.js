@@ -1,7 +1,5 @@
 const express = require("express");
 const contractors = express.Router();
-const db = require("../apartmentdb/dbConfig.js");
-const { Client } = require("pg-promise");
 const {
   getAllContractors,
   getAllBoroughs,
